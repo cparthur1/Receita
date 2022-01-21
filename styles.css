@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
     color: rgb(17, 17, 17);
-    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(255, 248, 239);
+    margin-bottom: 50px;
 }
 .title {
     color: hsl(24, 82%, 30%);
@@ -26,17 +29,23 @@ body{
 .img {
     padding: 0;
     margin: 0;
-    height: 300px;
+    height: auto;
+    width: 100%;
     position: relative;
+    display: flex;
     z-index: 0;
 }
 .recipe-placement {
-    background-color: rgb(255, 248, 239);
+    background-color: rgb(233, 210, 180);
     position: absolute;
     z-index: 2;
+    margin-top: 15px;
     margin-left: 25%;
+    border-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
     width: 50%;
-    height: 100%;
+    height: auto;
     text-align: left;
 }
 .inandmp {
