@@ -28,13 +28,14 @@ body{
     margin: 0;
     height: 300px;
     position: relative;
-    z-index: 600px;
+    z-index: 0;
 }
 .recipe-placement {
     background-color: rgb(255, 248, 239);
     position: absolute;
-    z-index: 3;
-    width: 100%;
+    z-index: 2;
+    margin-left: 25%;
+    width: 50%;
     height: 100%;
     text-align: left;
 }
