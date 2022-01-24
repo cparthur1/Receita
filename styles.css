@@ -54,10 +54,16 @@ html, body{
     border-bottom: 15px;
     width: 50%;
     margin-left: 25%;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.76);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.842);
     backdrop-filter: blur(20px);
     z-index: 3;
-    height: 100px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 380px;
 }
 .imgrow {
     display: flex;
@@ -65,4 +71,32 @@ html, body{
     width: 100%;
     height: 400px;
     background-color: blanchedalmond;
+}
+.txts {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(105, 67, 10);
+    color: cornsilk;
+}
+.accept {
+    background-color: rgb(65, 65, 151); 
+    border-radius: 15px;
+    font-size: 15px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 17px;
+    color: whitesmoke;
+    margin-left: 50px;
+}
+a:hover{
+    color: violet;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+    text-decoration: none;
 }
